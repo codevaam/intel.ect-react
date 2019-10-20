@@ -1,0 +1,76 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  justify-content: center;
+  font-size: calc(2vmin);
+  color: white;
+  overflow-x: hidden;
+}
+
+@font-face{
+  font-family:"big-john-regular";
+  src:url("./BigJohn.woff");
+  font-size: 50px;
+}
+
+.main-content {
+  background-color: #282c34;
+}
+
+.texty {
+  padding-top: 70%;
+}
+
+.cards {
+  background-color: blueviolet;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 16px;
+  box-shadow: 1px 3px 6px black;
+}
+
+input {
+  border-style: none;
+  border-radius: 3rem;
+  height: 2.4rem;
+  width: 40%;
+}
+
+.nav-text {
+  font-family: "big-john-regular";
+  font-size: 22px;
+  color:#32c7d7;
+}
+
+.subject-text {
+  margin-top: 20vh;
+  font-family:"big-john-regular";
+  font-size:50px;
+  text-transform:none;
+}
+
+.nav-bar {
+  height: 100vh;
+  background-color: black;
+}
+
+.top-bar {
+  background-color: black;
+}
+
+.cards {
+  /* text-align: right; */
+  text-align: end;
+}
+
+.nav-item1 {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.nav-item2 {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.15rem;
+}
