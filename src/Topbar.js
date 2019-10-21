@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
-import Content from './Content';
+import Content from './Homecontent';
 // import Navigation from './Navbar';
 
 class Topbar extends React.Component {
@@ -13,7 +13,7 @@ class Topbar extends React.Component {
                     <Nav.Link className="nav-item2 py-3 px-3 ml-auto" eventKey="link-1">Account</Nav.Link>
                     <Nav.Link className="nav-item2 py-3 px-3" eventKey="link-2">Login</Nav.Link>
                 </Nav>
-                <div className="main-content row p-4">
+                <div className="row p-4" id="main-content">
                     <Content />
                 </div>
             </div>

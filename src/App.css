@@ -17,6 +17,11 @@
   background-color: #282c34;
 }
 
+.full-title {
+  text-align: start;
+  color: lightgray;
+}
+
 .texty {
   padding-top: 70%;
 }
@@ -27,6 +32,27 @@
   width: 14rem;
   border-radius: 16px;
   box-shadow: 1px 3px 6px black;
+}
+
+.file-input {
+  height: 10rem;
+  width: 10rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  height: auto;
+  text-align: center;
+  background-color: rgb(255,255,255,0.2);
+  border-radius: 1rem;
+}
+
+.upload-img {
+  align-items: center;
 }
 
 input {
@@ -42,11 +68,36 @@ input {
   color:#32c7d7;
 }
 
+.upload-text {
+  font-family: "big-john-regular";
+  font-size: 32px;
+  color: #32c7d7;
+  text-align: center;
+}
+
+.upload-text2 {
+  font-size: 40px;
+}
+
+.upload-img {
+  width: 15rem;
+}
+
 .subject-text {
   margin-top: 20vh;
   font-family:"big-john-regular";
   font-size:50px;
   text-transform:none;
+}
+
+.browse-link {
+  color: #32c7d7;
+  text-decoration: underline;
+}
+
+.topic-catagory {
+  font-family: "big-john-regular";
+  padding-bottom: 2rem;
 }
 
 .nav-bar {
